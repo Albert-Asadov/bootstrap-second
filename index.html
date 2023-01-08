@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark-subtle fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">Carousel</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators ">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <img src="https://stsci-opo.org/STScI-01EVT5EB6BFGTR0ZBMV4Q0D9S1.jpg" class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Another example headline.</h5>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <button class="btn btn-primary mb-5">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section>
+            <div class="container mt-4">
+                <div class="container-lg">
+                    <div class="row ">
+                        <div class="col-4 text-center mt-4">
+                            <img class="rounded-circle"
+                                src="https://i.guim.co.uk/img/media/1fabf8053972b26fa02158ae31c89614956755a4/0_34_864_518/master/864.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=4834596edfbfa5ea88ebe8d4cadcec33"
+                                style="height: 150px; width: 150px;" alt="">
+                            <h1>Heading</h1>
+                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id
+                                nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum
+                                at eros. Praesent commodo cursus magna</p>
+                            <a class="btn btn-secondary" href="">View Details >></a>
+                        </div>
+                        <div class="col-4 text-center mt-4">
+                            <img class="rounded-circle"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh4TuoGJ8STN6uozIFrbdpS5XCWt9Pf0NoAQ&usqp=CAU"
+                                style="height: 150px; width: 150px;" alt="">
+                            <h1>Heading</h1>
+                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id
+                                nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum
+                                at eros. Praesent commodo cursus magna</p>
+                            <a class="btn btn-secondary" href="">View Details >></a>
+                        </div>
+                        <div class="col-4 text-center mt-4">
+                            <img class="rounded-circle"
+                                src="https://i.pinimg.com/236x/7d/07/ef/7d07efbb80dc3ad37a85c239f699422d.jpg"
+                                style="height: 150px; width: 150px;" alt="">
+                            <h1>Heading</h1>
+                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id
+                                nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum
+                                at eros. Praesent commodo cursus magna</p>
+                            <a class="btn btn-secondary" href="">View Details >></a>
+                        </div>
+                        <div class="mt-5">
+                            <hr>
+                        </div>
+                        <div class="div d-flex justiy-content-center align-items-center">
+                            <div class="col-6 ">
+                                <h1>First featurette heading. <span class="text-muted"> It'll blow your mind.</span>
+                                </h1>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                                    euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                    Fusce dapibus, tellus ac cursus commodo.</p>
+                            </div>
+                            <div class="col-6 text-end">
+                                <img src="https://img.etimg.com/thumb/msid-88542870,width-650,height-488,imgsize-72284,,resizemode-75/universe.jpg"
+                                    style="width: 500px; height: 500px;" alt="">
+                            </div>
+                        </div>
+                        <hr class="mt-4">
+
+                        <div class="div d-flex justiy-content-center align-items-center">
+                            <div class="col-6 text-start">
+                                <img src="https://www.u-tokyo.ac.jp/content/400151168.jpg"
+                                    style="width: 500px; height: 500px;" alt="">
+                            </div>
+                            <div class="col-6 ">
+                                <h1>And lastly, this one. <span class="text-muted"> Checkmate.</span>
+                                </h1>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                            </div>
+                        </div>
+                        <hr class="mt-4">
+                        <div class="div d-flex justiy-content-center align-items-center">
+                            <div class="col-6 ">
+                                <h1>And lastly, this one.<span class="text-muted"> Checkmate.</span>
+                                </h1>
+                                <p>Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                            </div>
+                            <div class="col-6 text-end">
+                                <img src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2022/01/One_galaxy_1200_Social.jpg"
+                                    style="width: 500px; height: 500px;" alt="">
+                            </div>
+                        </div>
+                        <hr class="mt-4">
+
+                        <footer>
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="col-6 text-start">
+                                        <p>© 2017-2018 Company, Inc. · <a href="">Privacy</a> · <a href="">Terms</a></p>
+                                    </div>
+                                   <div class="col-6 text-end">
+                                        <a href="">Back to Top</a>
+                                   </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
